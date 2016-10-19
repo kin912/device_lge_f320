@@ -30,4 +30,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensor_def_f320.conf:system/etc/sensor_def_variable.conf
 
 # Copy product specific init script to mount SD card
-PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.qcom.sdcard.rc:root/init.g2.sdcard.rc	
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.qcom.sdcard.rc:root/init.qcom.sdcard.rc	
